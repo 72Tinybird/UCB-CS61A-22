@@ -1,2 +1,2 @@
 # Week 1 
-windows系统可以在此下载git：https://git-scm.com/download/win
+indows系统可以在此下载Git：https://git-scm.com/download/win
