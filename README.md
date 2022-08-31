@@ -1,2 +1,1 @@
-# UCB-CS61A-22
-（a course about managing complexity)
+# UCB-CS61A-22（Mastering abstraction)
