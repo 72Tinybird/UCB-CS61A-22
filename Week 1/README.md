@@ -12,4 +12,9 @@ Windows系统可在此下载Git：https://git-scm.com/download/win
 * python -i : run Python code line by line
 * python -m : doctest:Runs doctests in a particular file
 ## ③ 作业要点
-* Q5 ： 函数套函数每次经过函数会先运行，无return值赋值给其他变量就是None
+* Q5 ： 函数套函数每次经过函数会先运行，无return值赋值给其他变量就是None  
+  
+\>>>print(print(1), print(2))  
+1  
+2  
+None None
