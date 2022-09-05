@@ -18,3 +18,11 @@ Windows系统可在此下载Git：https://git-scm.com/download/win
   1  
   2  
   None None
+  
+* def absolute_value(x)：   # 一个statement(if开始) 三个clause(if,elif,elif) 三个suit(clause下面的内容)  
+	if x < 0:  
+	&nbsp;&nbsp;&nbsp;&nbsp;return -x  
+	elif x == 0:  
+  &nbsp;&nbsp;&nbsp;&nbsp;return 0  
+	else:  
+	&nbsp;&nbsp;&nbsp;&nbsp;return x  
