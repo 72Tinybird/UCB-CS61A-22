@@ -26,3 +26,7 @@ Windows系统可在此下载Git：https://git-scm.com/download/win
   &nbsp;&nbsp;&nbsp;&nbsp;return 0  
 	else:  
 	&nbsp;&nbsp;&nbsp;&nbsp;return x  
+
+* and和or  
+(a and b and c) a真->b真->c(无论真假都输出) 中间有假就输出假(0, False, None)  
+(a or b or c)   a假->b假->c(无论真假都输出) 中间有真就输出真
