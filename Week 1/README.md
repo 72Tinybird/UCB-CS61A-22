@@ -43,4 +43,4 @@ def make_adder(n):
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return k + n  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return adder  
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;make_adder(2000)(19)  #  n和k
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;make_adder(2000)(19)    #n和k
