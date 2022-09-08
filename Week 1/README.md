@@ -44,3 +44,10 @@ def make_adder(n):
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return adder  
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;make_adder(2000)(19)    #n和k
+
+* lambda  
+def myfunc(n):  
+return lambda x: x + n  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;curry2 = lambda f: lambda x : lambda y: f(x,y)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m = curry2(add)  
