@@ -35,7 +35,8 @@ Windows系统可在此下载Git：https://git-scm.com/download/win
 def square(r):  
 &nbsp;&nbsp;&nbsp;&nbsp;assert r > 0, "r must be positive" #小于等于0时报错  
 &nbsp;&nbsp;&nbsp;&nbsp;return r * r
-    
+
+### 高阶函数
 * return values  
 def make_adder(n):  
 	
