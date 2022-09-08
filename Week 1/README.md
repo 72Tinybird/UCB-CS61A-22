@@ -45,7 +45,7 @@ def make_adder(n):
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;make_adder(2000)(19)    #n和k
 
-* lambda  
+* lambda (很有意思但也有些难理解，自行理解) 
 def myfunc(n):  
 return lambda x: x + n  
 
