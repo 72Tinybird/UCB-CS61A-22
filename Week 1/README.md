@@ -36,3 +36,11 @@ def square(r):
 &nbsp;&nbsp;&nbsp;&nbsp;assert r > 0, "r must be positive" #小于等于0时报错  
 &nbsp;&nbsp;&nbsp;&nbsp;return r * r
     
+* return values  
+def make_adder(n):  
+	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def adder(k):  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return k + n  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return adder  
+	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;make_adder(2000)(19)
