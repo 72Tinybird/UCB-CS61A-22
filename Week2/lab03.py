@@ -119,7 +119,7 @@ def pingpong(n):
 
     return pingpong_helper(1, 1, True)
 
-    """
+    """ PKU
     def pingpong_helper(value, index, direction):
         if index == n:
             return value
@@ -129,5 +129,4 @@ def pingpong(n):
             return pingpong_helper(value + direction, index + 1, direction)
 
     return pingpong_helper(1, 1, 1)
-
     """
