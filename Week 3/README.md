@@ -23,4 +23,6 @@
   except ZeroDivisionError[as e]:  
   &nbsp;&nbsp;&nbsp;&nbsp; print('handled'[, e])  
   &nbsp;&nbsp;&nbsp;&nbsp; return 0  
- 
+* sum函数  
+  sum(iterable, start) -> start + []内所有数字  
+  sum([[2, 3], [4]], [ ]) -> [2, 3, 4]
