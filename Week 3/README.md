@@ -54,3 +54,5 @@
   
   def is_leaf(tree):  
   &nbsp;&nbsp;&nbsp;&nbsp;return not branches(tree)  
+* List comprehensions 列表推导式  
+  list_output = [x+3 for x in len(LIST) if x%2 == 0]  
