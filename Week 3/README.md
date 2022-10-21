@@ -32,3 +32,25 @@
   3  
 * all函数  
   all([iterable]) ->判断iterable中所有元素是否为True,是则返回True,反之为False  
+* Tree  
+  def tree(label, branches=[ ]):  
+  &nbsp;&nbsp;&nbsp;&nbsp;for branch in branches:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assert is_tree(branch), 'branches must be trees'  
+  &nbsp;&nbsp;&nbsp;&nbsp;return [label] + list(branches)  
+  
+  def label(tree):  
+  &nbsp;&nbsp;&nbsp;&nbsp;return tree[0]  
+  
+  def branches(tree):  
+  &nbsp;&nbsp;&nbsp;&nbsp;return tree[1:]  
+  
+  def is_tree(tree):  
+  &nbsp;&nbsp;&nbsp;&nbsp;if type(tree) != list or len(tree) < 1:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False  
+  &nbsp;&nbsp;&nbsp;&nbsp;for branch in branches(tree):  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if not is_tree(branch):  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False  
+  &nbsp;&nbsp;&nbsp;&nbsp;return True  
+  
+  def is_leaf(tree):  
+  &nbsp;&nbsp;&nbsp;&nbsp;return not branches(tree)  
