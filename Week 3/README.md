@@ -25,4 +25,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp; return 0  
 * sum函数  
   sum(iterable, start) -> start + []内所有数字  
-  sum([[2, 3], [4]], [ ]) -> [2, 3, 4]
+  sum([[2, 3], [4]], [ ]) -> [2, 3, 4]  
+* max函数  
+  max(iterable, func) ->对iterable参数都进行func操作，返回使f(x)最大的x值  
+  \>\> max(range(10), lambda x: 7 - (x-2) * (x-4))  
+  3  
+* all函数  
+  all([iterable]) ->判断iterable中所有元素是否为True,是则返回True,反之为False  
